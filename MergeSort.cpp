@@ -37,7 +37,7 @@ struct array *merge(struct array *arr1, struct array *arr2 )
     }
     for( ; j<arr2->len;j++)
     {
-        arr3->a[k++]=arr1->a[j];
+        arr3->a[k++]=arr2->a[j];
     }
     arr3->len=arr1->len+arr2->len;
     arr3->size=10;
@@ -46,7 +46,7 @@ struct array *merge(struct array *arr1, struct array *arr2 )
 }
 int main()
 {
-    struct array arr1={{2,4,6,8,19},10,5};
+    struct array arr1={{2,4,6,8,14},10,5};
     struct array arr2={{3,5,7,9,16},10,5};
     struct array *arr3;  //pointer
     arr3=merge(&arr1,&arr2);
