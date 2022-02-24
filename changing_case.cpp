@@ -20,7 +20,7 @@ int main()
     }
     cout<<"upper case "<<c<<endl;
 
-    for(i=0;h[i]!='\0';i++)  //mix
+    for(i=0;h[i]!='\0';i++)  //both
     {
         if(h[i]>=65 && h[i]<=90)
         {
