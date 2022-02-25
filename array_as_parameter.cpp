@@ -6,8 +6,7 @@ void fun(int *a,int n) //pointer to an array;  fun(int a[],int n)
     cout<<"size of an pointer/size of an int "<<sizeof(  a)/sizeof(int)<<endl;
 
 
-    // for(int A:a)
-    // cout<<A<<endl; --> we cannot use for on a pointer
+    // we cannot use for on a pointer
 
     for(int i=0;i<n;i++)
     {
