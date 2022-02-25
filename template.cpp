@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//template is used when you data type is not fixed
+//template is used when your data type is not fixed
 template<class T>
 class arithmetic
 {
