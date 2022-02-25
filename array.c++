@@ -15,7 +15,7 @@ int main() {
 
      for(int x:a)
      {
-         cout<<x<<endl; //x will take values one by one
+         cout<<x<<endl;
      }
 
         return 0;
