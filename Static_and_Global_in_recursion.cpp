@@ -6,7 +6,7 @@ int fun1(int n)
     if(n>0)
     {
         
-        return fun1(n-1)+n; //multiple copies
+        return fun1(n-1)+n; //it will have multiple copies
     }
     return 0;
 }
