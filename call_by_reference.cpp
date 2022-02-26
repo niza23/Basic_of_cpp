@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int add(int &a,int &b) //this will create another name of x and y 
+int add(int &a,int &b) //different names for x and y and does not consume extra memory
  { 
 
     int c= a+ b;
