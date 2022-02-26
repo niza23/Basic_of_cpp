@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int add(int &a,int *b){ //one is passed by reference and other by address-- this will also correct
+int add(int &a,int *b){ //one is passed by reference and other by address
 
 
     int c= a+ *b;
