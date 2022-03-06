@@ -26,7 +26,7 @@ int del(struct array *arr,int index)
             arr->a[i]=arr->a[i+1];
         }
         return x;
-        arr->len--;
+        arr->len--;   //dec the length 
     }
     return 0;
 }
