@@ -15,7 +15,7 @@ void display(struct array arr)
     } 
 }
 
-int binarysearch(struct array arr,int k)  //without recursion
+int binarysearch(struct array arr,int k) 
 {
     int l=0,h=arr.len-1,mid;
     while(h>=l)
@@ -39,7 +39,7 @@ int binarysearch(struct array arr,int k)  //without recursion
     
 }
 
-int rbinary(int a[],int l,int h,int k)   //with recursion
+int rbinary(int a[],int l,int h,int k)   // recursion
 {
     int mid;
     while(l<=h)
