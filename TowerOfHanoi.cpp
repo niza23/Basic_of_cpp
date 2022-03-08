@@ -5,9 +5,9 @@ void TOH(int n,int a,int b,int c)
 {
     if(n>0)
     {
-        TOH(n-1,a,c,b);
+        TOH(n-1,a,c,b);    // a to b via c
         cout<<"from A to C: "<<a<<" to "<<c<<endl;
-        TOH(n-1,b,a,c);
+        TOH(n-1,b,a,c);    //b to c via a
     }
 }
 
