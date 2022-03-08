@@ -26,7 +26,7 @@ int main()
     cout<<"insert in array "<<endl;
     cout<<"enter number of element "<<endl;
     cin>>arr.len;
-    if(arr.len<in)
+    if(arr.len<in)     //check for invalid positions always
     {
                  cout<<"invLID POsition ";
     }
