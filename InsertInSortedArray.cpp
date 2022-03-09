@@ -13,10 +13,10 @@ void display(struct array arr)
         cout<<arr.a[i]<<endl;
     } 
 }
-void InsertSort(struct array *arr, int x)
+void InsertSort(struct array *arr, int x)   
 {
     int i=arr->len-1;
-    if(arr->len==arr->size)
+    if(arr->len==arr->size)   //invalid 
     {
         return ;
     }
