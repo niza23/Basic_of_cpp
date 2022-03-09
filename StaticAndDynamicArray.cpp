@@ -14,7 +14,7 @@ int main()
 
     //dynamic
     int *p;
-    p=new int[5];   //inside of a heap
+    p=new int[5];   //inside a heap and it is created during execution time
     p[0]=10;
     p[1]=11;
     p[2]=111;
