@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 
-//
+
 struct card
 {
-    /* data */
+    
     int face;
     int shape;
     int color;
