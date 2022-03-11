@@ -18,7 +18,7 @@ int isSorted(struct array arr)  //check if it is sorted nor not
 {
     for(int i=0;i<arr.len-1;i++)
     {
-        if(arr.a[i]>arr.a[i+1])
+        if(arr.a[i]>arr.a[i+1])     //previous ele should be smaller than current element
         {
             return 0;
         }
