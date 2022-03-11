@@ -19,11 +19,11 @@ void reverse(struct array *arr)  //using two arrays
     int *b;
     b=new int(arr->len);
 
-    for(int i=arr->len-1,j=0;i>=0;i--,j++)
+    for(int i=arr->len-1,j=0;i>=0;i--,j++)   //first store all element of A in B
     {
         b[j]=arr->a[i];
     }
-    for(int i=0;i<=arr->len;i++)
+    for(int i=0;i<=arr->len;i++)    //copy element of B in A
     {
         arr->a[i]=b[i];
     }
@@ -32,7 +32,7 @@ void sreverse(struct array *arr)  //using swap method
 {
     int j,i;
 
-    for(i=0,j=arr->len-1;i<j; i++,j--)
+    for(i=0,j=arr->len-1;i<j; i++,j--)     // swap first and last element
     {
         swap(arr->a[i],arr->a[j]);
     }
