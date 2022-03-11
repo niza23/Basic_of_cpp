@@ -12,7 +12,7 @@ void show(struct array arr)
 {
    for(int i=0;i<arr.length;i++)
     {
-        cout<<arr.a[i]<<endl;
+        cout<<"elelments is"<<arr.a[i]<<endl;
     } 
 }
 int main()
