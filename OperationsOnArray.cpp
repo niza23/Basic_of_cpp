@@ -22,7 +22,7 @@ int main()
     cout<<"enter size of an array "<<endl;
     cin>>arr.size;
 
-    arr.a= new int(arr.size); //dynamic array
+    arr.a= new int(arr.size); //dynamic array(Inside an heap)
 
     arr.length=0;
 
