@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int sum(int n)  //recursion
+int sum(int n)  //using recursion
 {
     if(n==0)
     {
