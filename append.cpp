@@ -32,7 +32,7 @@ void append(struct array *arr,int x)  //since we want to modify the array we sho
 {
     if(arr->len<arr->size)  //check for free space
     {
-        arr->a[arr->len++]=x;
+        arr->a[arr->len++]=x;   //add as last element
     }
 }
 
