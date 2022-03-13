@@ -21,17 +21,17 @@ struct array *merge(struct array *arr1, struct array *arr2 )
 
     struct array *arr3=new array[sizeof(struct array)];
 
-    while(i<arr1->len && j<arr2->len)
+    while(i<arr1->len && j<arr2->len)   //check the values until one of the array is fully traversed
     {
         if(arr1->a[i]<arr2->a[j])
         {
-            arr3->a[k++]=arr1->a[i++];
+            arr3->a[k++]=arr1->a[i++];   //add the smallest value in 3rd array and move to next element
         }
         else{
              arr3->a[k++]=arr2->a[j++];
         }
     }
-    for( ; i<arr1->len;i++)
+    for( ; i<arr1->len;i++)   //add left out values of first array to third
     {
         arr3->a[k++]=arr1->a[i];
     }
