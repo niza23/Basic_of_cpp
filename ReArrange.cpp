@@ -14,7 +14,7 @@ void display(struct array arr)
     } 
 }
 
-void Rearrange(struct array *arr)  //negative num to left side
+void Rearrange(struct array *arr)  //negative numbers to the left side
 {
     int i=0;
     int j=arr->len-1;
