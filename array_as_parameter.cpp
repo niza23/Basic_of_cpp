@@ -14,7 +14,7 @@ void fun(int *a,int n) //pointer to an array;  fun(int a[],int n)
 
     }
 
-    a[0]=15;  //the value will change in array
+    a[0]=15;  //the value in the array will update according to this
 }
 int main()
 {
