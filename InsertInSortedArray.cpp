@@ -16,7 +16,7 @@ void display(struct array arr)
 void InsertSort(struct array *arr, int x)   
 {
     int i=arr->len-1;
-    if(arr->len==arr->size)   //invalid 
+    if(arr->len==arr->size)   //check for invalid position 
     {
         return ;
     }
